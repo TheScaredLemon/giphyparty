@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Courier New", monospace;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  body {
+    font-family: "Courier New", monospace;
+  }
+  
+  #searchTerm {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  #removeButton {
+    padding: 8px 16px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #removeButton:hover {
+    background-color: #999;
+  }
+  
+  #gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gif {
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .gif:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+body {
+  animation: gradientAnimation 20s ease infinite;
+  background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
